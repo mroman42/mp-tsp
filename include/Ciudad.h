@@ -1,6 +1,7 @@
 #ifndef CIUDAD
 #define CIUDAD
 
+
 #include <cmath>
 #define SQUARE(A) (A)*(A)
 
@@ -20,4 +21,8 @@ struct Ciudad {
     inline double distanciaCuadrado(const Ciudad& destino) const {
 	return SQUARE(x - destino.x) + SQUARE(y - destino.y);
     };
-}
+};
+
+
+
+#endif
