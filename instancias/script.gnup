@@ -1,0 +1,11 @@
+set xlabel "Coordenada X"
+set ylabel "Coordenada Y"
+set title "Problema TSP : ".basename
+unset key
+set grid
+set terminal png
+set output basename.".png"
+plot basename.".data" with linespoints
+
+
+ 
