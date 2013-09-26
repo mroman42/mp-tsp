@@ -44,7 +44,7 @@ clean:
 #documentacion:
 #	@doxygen $(DOC)/doxys/Doxyfile
 
-#tabla:
-#	./solvehtml.sh
+tabla:
+	./solvehtml.sh
 
 .PHONY: clean documentacion tabla
