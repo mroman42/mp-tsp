@@ -41,8 +41,8 @@ $(OBJ)/%.o: $(SRC)/%.cc $(HEADERS)
 clean:
 	@rm $(OBJ)/*.o && echo "Borrados ficheros objeto."
 
-#documentacion:
-#	@doxygen $(DOC)/doxys/Doxyfile
+documentacion:
+	@doxygen $(DOC)/doxys/Doxyfile
 
 tabla:
 	./solvehtml.sh
